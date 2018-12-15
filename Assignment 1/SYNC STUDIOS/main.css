@@ -1,0 +1,124 @@
+/*------------------
+layout
+-------------------*/
+#features{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+#features img{
+	margin:0 0 20px;
+}
+
+#inputMessage{
+	margin-bottom: 15px;
+}
+
+.badge{
+	background-color: #ff0000;
+	text-align: center;
+}
+
+.map-responsive{
+	overflow: hidden;
+	padding-bottom: 56.25;
+	position: relative;
+	height: 0;
+}
+.map-responsive iframe{
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+
+dl{
+	text-align: left;
+}
+i{
+	text-align: left;
+	margin-left: 2px;
+	padding-left: 2px;
+}
+
+h3{
+    font-weight: bold;
+}
+label{
+    font-size:15px;
+}
+.thumbnails{
+    margin: 20px 0; 
+}
+
+.thumbnail{
+    position:relative;
+}  
+
+.thumbnail h3{
+    font-size: 16px;
+    margin: 0 0 10px;
+    line-height: 20px;
+}
+
+img,#img1,#img2,#img3{
+	width: 100%;
+	height: 300px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+video{
+	width: 100%;
+	height: 300px;
+}
+
+.thumbnail {
+  height: 500px;
+}
+
+#Sync{
+	height: 480px;
+}
+
+#thumbnail1,#thumbnail2,#thumbnail3{
+	height: 350px;
+	border-color: #ffffff;
+}
+
+#thumbnail0{
+	padding-top: 55px;
+	border-color: #ffffff;
+}
+
+
+/* Small devices (smartphone 600px and up) */
+@media (min-width: 600px) {
+       .thumbnail .price{
+           font-size:10px;
+           }
+        .thumbnail .price sup{
+            font-size: 10px;   
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {}
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}

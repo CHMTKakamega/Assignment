@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Sync Studios</title>
+	<meta charset="utf-8"/>
+	<meta http-equiv="author" content="Author's name"/>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/bootstrap-reset.css" rel="stylesheet">
+
+  <link href="main.css" rel="stylesheet" type="text/css"/>
+  <link href="css/animate.css" rel="stylesheet" type="text/css"/>
+
+  <!--Icon-fonts css-->
+  <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
+  <link href="assets/ionicon/css/ionicons.min.css" rel="stylesheet" />
+  <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" type="text/css"/>
+  <link href="css/helper.css" rel="stylesheet"/>
+</head>
+<body>
+
+  <div class="container-fluid" id="main">
+
+    <!--header-->
+    <header class="top-head container-fluid">
+
+      <div class="logo pull-left">
+        <a class="logo-expanded" href="#"><span class="nav-label">Sync Studios</span></a>
+      </div>
+
+      <form class="navbar-form pull-right hidden-xs">
+        <input type="text" class="form-control" placeholder="Search..." id="searchInput">
+        <button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
+      </form>
+    </header>
+
+    <nav class="navbar navbar-default" role="navigation">
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header container">
+            <button type="button" class="navbar-toggle pull-left" data-toggle="collapse" data-target="#bs-EHC-navbar-collapse-1">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="bs-EHC-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                <li><a href="index.html">Home</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Products <strong class="caret"></strong></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                  </ul>
+                </li>
+                <li class="active"><a href="contact.html">Contact Us</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </nav>
+
+    <h3><u>GET IN TOUCH</u></h3>
+    </br>
+    <p>Contact us to book a viewing or for any other inquiries. Please fill out this form and we will get back to you as soon as we can.</p>
+    </br>
+
+    <div class="row" id="contacts">
+
+      <?php include 'email.php';?>
+      <div class="col-sm-6">
+        <form class="form-vertical" action="mailto:email@example.com" method="post">
+          <div class="form-group">
+            <label for="inputName">Name</label>
+            <input class="form-control" id="inputName" placeholder="Name" type="text" required>
+          </div>
+
+          <div class="form-group">
+            <label for="inputEmail">Email</label>
+            <input class="form-control" id="inputEmail" placeholder="Email" type="email" required>
+          </div>
+
+          <div class="form-group">
+            <label for="inputMessage">Message</label>
+            <textarea class="form-control" id="inputMessage" placeholder="Message" rows="3"  type="text" required ></textarea>
+
+            <button class="btn btn-success pull-right" type="submit">Send!</button>
+
+          </div>
+        </form>
+        </br>
+        </br>
+      </div>
+
+      <div class="col-sm-6">
+        <strong>Contact information</strong>
+        </br>
+        </br>
+
+        <dl class="dl-horizontal">
+          <dt><span class="badge"><i class="ion-android-call"></i></span>Call&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</dt>
+          <dd>0722000000</br>078600000</dd></br>
+          <dt><span class="badge"><i class="ion-android-mail"></i></span>Email&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</dt>
+          <dd><a href="mailto:webmaster@example.com">syncstudios@gmail.com</a></br><a href="mailto:webmaster@example.com">info@syncstudios.com</a></dd></br>
+          <dt><span class="badge"><i class="ion-home"></i></span>Address&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</dt>
+          <dd><address>P.O Box 31-00600,</br>Nairobi.</address></dd>
+        </dl>
+      </div>
+    </div>
+    </br>
+    </br>
+    </br>
+    </br>
+  </div>
+  <footer class="footer">
+    2018&copySync Studios
+  </footer>
+
+  <!-- js placed at the end of the document so the pages load faster -->
+  <script src="js/jquery.js"></script>
+  <script src="js/jquery.nicescroll.js" type="text/javascript"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.app.js"></script>
+
+</body>
+</html>

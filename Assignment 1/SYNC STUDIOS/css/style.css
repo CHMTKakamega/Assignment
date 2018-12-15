@@ -1,0 +1,200 @@
+body{
+  color: #000000;
+  background-color: #ffffff;
+  font-family: Verdana;
+  padding: 0px !important;
+  margin: 0px !important;
+}
+.container-fluid{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.form-control{
+  border-color: #cc00cc;
+}
+
+.btn{
+  border-color: #cc00cc;
+  background-color: #ff0000;
+  color: #ffffff;
+}
+
+.btn:hover, .btn:active{
+  border-color: #cc00cc;
+  background-color: #ff0000;
+  color: #ffffff;
+}
+
+
+/*------------
+navbar
+-------------*/
+nav{
+  height: 25px;
+  margin: 0px;
+}
+
+.nav-label{
+  font-family: brush script MT;
+  font-size: 40px;
+  color: #ff0000;
+  font-style: italic;
+}
+.navbar-default{
+  background-color: #ff0000;
+  margin: 0px;
+  color: #ffffff;
+  font-size: 15px;
+  border-color: #cc00cc;
+}
+
+.navbar-default .navbar-nav>li>a {
+  background-color: transparent;
+  color: #ffffff;
+}
+ .navbar-default .navbar-nav>.open>a,  .navbar-default .navbar-nav>.open>a:focus,  .navbar-default .navbar-nav>.open>a:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.navigation > ul > li > a:hover {
+  color: #ffffff;
+}
+
+.navigation > ul > li:hover > a,
+.navigation > ul > li.active:hover > a,
+.navigation > ul > li.active > a{
+  color: #ffffff;
+}
+
+.navigation ul li ul li a:hover {
+  color: #eeeeee;
+}
+
+.navigation ul li ul li.active a {
+  color: #ffffff !important;
+}
+
+#youtube{
+  color: #337ab7;
+}
+
+
+
+#searchInput{
+  width: 200px;
+  color: #000000;
+}
+
+/*-----carousel
+----------*/
+#theCarousel{
+  margin:0px;
+  border-color: #cc00cc; 
+}
+
+.carousel-caption{
+  font-size:24px; 
+}
+
+.carousel-caption h4{
+  font-size: 32px;
+}
+
+#theCarousel .item
+{ height:400px;
+}
+
+#slide1{
+  background: url('../images/studio10.jpg') top center no-repeat;
+  background-size: 100% 100%;
+}
+
+#slide2{
+  background: url('../images/studio1.jpg') top center no-repeat;
+  background-size: 100% 100%;
+}
+
+#slide3{
+  background: url('../images/studio9.jpeg') top center no-repeat;
+  background-size: 100% 100%;
+}
+
+/*-------------- 
+Footer 
+----------------*/
+.footer {
+  color: #ffffff;
+  text-align: center;
+  padding: 7px 7px;
+  background-color: #ff0000;
+  
+}
+
+
+/*-------------
+Media Queries
+---------------*/
+/*Portrait & landscape*/
+@media (max-width: 480px){
+
+#theCarousel .item
+{ height:310px;
+}
+
+#slide1{
+  background: url('../images/studio10.jpg') top center no-repeat;
+  background-size: 100% 100%;
+}
+
+#slide2{
+  background: url('../images/studio1.jpg') top center no-repeat;
+  background-size: 100% 100%;
+}
+
+#slide3{
+  background: url('../images/studio9.jpeg') top center no-repeat;
+  background-size: 100% 100%;
+}
+
+.carousel-caption{
+  font-size: 16px;
+}
+
+.carousel-caption h4{
+  font-size: 22px;
+}
+
+
+}
+
+/*Landscape phone to portrait tablet*/
+@media (max-width: 768px){
+
+ 
+}
+
+/*large desktop*/
+@media(min-width: 1200px){
+
+  #theCarousel .item
+{ height:500px;
+}
+
+#slide1{
+  background: url('../images/studio10.jpg') top center no-repeat;
+  background-size: 100% 100%;
+}
+
+#slide2{
+  background: url('../images/studio1.jpg') top center no-repeat;
+  background-size: 100% 100%;
+}
+
+#slide3{
+  background: url('../images/studio9.jpeg') top center no-repeat;
+  background-size: 100% 100%;
+}
+
+}
